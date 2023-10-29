@@ -1,0 +1,66 @@
+body{
+    background-color:lightblue;
+}
+.heading{
+    background-color:darkslateblue;
+    text-align: center;
+    height: 60px;
+    color:aliceblue;
+    border-radius: 10px;
+    font-family: monospace;
+}
+h1{
+    vertical-align: middle;
+    margin-top: 1px;
+}
+.card{
+    color: rgb(234, 132, 8);
+    background: linear-gradient(darkslateblue,rgb(83, 34, 34));
+    margin-top: 15px;
+    width: 40%;
+    height: 126px;
+    display:block;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 130px;
+    margin: 10px;
+    font-size: 33px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+
+}
+.flex-card{
+    width: 100%;
+    height: auto;
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card:hover{
+    color: aquamarine;
+}
+h3{
+    
+    font-size: 23px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+button{
+    box-shadow: 0 0  5px cyan,
+    0 0 25 cyan;
+}
+button:hover{
+    box-shadow: 0 0 5px cyan, 
+    0 0 25px cyan, 0 0 50px cyan ,
+    0 0 100px cyan, 0 0 200px cyan;
+}
+@media all and (max-width:500px){
+    .card{
+        background-color: rgb(246, 42, 239);
+        width: 40%;
+        height: 248px;
+    }
+    body{
+        background-color: blueviolet;
+    }
+}
